@@ -1,0 +1,51 @@
+/* Adicionando fontes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@200..800&display=swap');
+
+/* Adicionando cores */
+:root {
+    --branco:#F5F5F5;
+    --preto: #1F1C1F;
+    --azul:  #3D6796;
+    --rosa1: #F6CAD6;
+    --rosa2: #C07486;
+    --verm1: #842138;
+    --verm2: #7A2E29;
+}
+
+* {
+    background-color: var(--preto);
+
+    font-family: "Manrope", sans-serif;
+    color: var(--rosa1);
+}
+
+#topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#topo-escrito {
+    padding: 4%;
+}
+
+#topo-escrito h1 {
+    font-family:"DM Serif Display", serif;
+    letter-spacing: 0.1em;
+}
+
+#emma {
+    width: auto;
+    height: 250px;
+
+    border-radius: 100%;
+    border: 2px solid var(--rosa1);
+}
+
+
+#contato {
+    display: flex;
+    flex-direction: row;
+}
